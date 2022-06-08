@@ -26,8 +26,8 @@ import sys
 
 def default_config():
     config = {'default_storage': 'file://',
-              'use_CUDA': 'false',
-              'use_OpenCL': 'true',
+              'use_CUDA': 'true',
+              'use_OpenCL': 'false',
               'rpc_server': 'false',
               'rpc_announce': 'true',
               'rpc_announce_broadcast': 'false',
